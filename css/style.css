@@ -1,0 +1,79 @@
+.col-md-12.headernav {
+    padding: 0;
+}
+
+nav.navbar.navbar-default {
+    margin: 0;
+}
+
+.table td{
+	text-align: center;
+}
+
+
+.table th{
+	text-align: center;
+	text-transform: bold;
+}
+
+.container.fullbody {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+tr{
+	text-align: center;
+}
+
+h6.mb-0 {
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.col-md-12.footerfirst {
+    padding: 0;
+}
+
+.footer-copyright.text-center.text-black-50.py-3 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: bisque;
+}
+
+#map {
+	height: 700px;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+	/*background-color: grey;*/
+}
+
+.mapContainer{
+    width:100%;
+    position: relative;
+}
+.mapContainer a.direction-link {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100010;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 8px 20px 8px 50px;
+    background: #0094de;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.mapContainer a.direction-link:hover {
+    text-decoration: none;
+    background: #0072ab;
+    color: #FFF;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+

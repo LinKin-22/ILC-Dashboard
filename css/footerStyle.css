@@ -1,0 +1,197 @@
+        body {
+    background-color: #ccffe6;
+}
+.container-fluid.headerlogo {
+    color: #fff;
+    background-color: #006442;
+}
+
+.container-fluid.headerlogo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.col-md-12.headernav {
+    padding: 0;
+}
+
+img.govlogo {
+    padding-top: 30px;
+}
+
+img.sesiplogo {
+    padding-top: 30px;
+    float: right;
+}
+
+nav.navbar.navbar-default {
+    margin: 0;
+}
+
+input#pwd {
+    margin-left: 28px;
+    padding-right: 23px;
+    width: 175px;
+}
+
+input#email {
+    margin-left: 28px;
+    padding-right: 23px;
+    width: 175px;
+}
+.table td{
+	text-align: center;
+}
+
+.table th{
+	text-align: center;
+	text-transform: bold;
+}
+
+.container.fullbody {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.name {
+    float: left;
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+.col-md-12.forms {
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: #b1e2b1;
+}
+
+.col-md-12.members {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: #b1e2b1;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*--------------about starts-------------*/
+ul li{
+    list-style-type: none;
+}
+ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+nav.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+}
+
+nav.navbar-default .navbar-nav>.active>a, nav.navbar-default .navbar-nav>.active>a:focus, nav.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-image: linear-gradient(to bottom,#1f4220 0,#5cb85c 100%);
+}
+
+div.col-md-12.fixabout > h2.left_title {
+    background-color: #efefef;
+    border-bottom: 1px dashed gray;
+    color: #006442;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.col-md-12.fixabout {
+    padding: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: #006442;
+}
+
+footer hr {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid red;
+}
+
+ul li a {
+    color: #fff;
+}
+
+p.about_content {
+    font-size: 16px;
+    padding: 15px;
+}
+
+/*--------------about ends-------------*/
+
+h6.mb-0 {
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.col-md-12.footerfirst {
+    padding: 0;
+}
+
+.footerrfix .footer-copyright {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #006442;
+}
+
+.footerrfix .footer-copyright.footerheight {
+    height: 22px;
+}
+
+footer.footerrfix.about {
+    position: absolute; bottom: 0; width: 100%;
+}
+
+p.textcopyright{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+
+        /*---- login fix starts ----*/
+div.form-signin.fixlogin {
+    padding: 20px;
+    max-width: 450px;
+}
+.form-signin.fixlogin.headerlogin {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: white;
+    background: #196342;
+    text-align: center;
+}
+.btn.btn-lg.btn-primary.btn-block {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #196342;
+    border: none;
+    border-radius: 5px;
+}
+h2.form-signin-heading {
+    padding: 10px;
+}
+.btn:hover {
+    background: #24bb25;
+}
